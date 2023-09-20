@@ -56,3 +56,16 @@ body {
     background-color: blue;
     color: white;
 }
+
+.poh {
+    color: black;
+    margin: 25px;
+    margin-top: 70px;
+}
+
+.pic{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
