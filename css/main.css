@@ -63,9 +63,16 @@ body {
     margin-top: 70px;
 }
 
-.pic{
+.container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
+.center{
+    text-align: center;
+}
 
+h2{
+    text-shadow: 0 0 3px orange;
+    text-decoration: underline;
+}
