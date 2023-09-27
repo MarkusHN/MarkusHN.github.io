@@ -61,6 +61,8 @@ body {
     color: black;
     margin: 25px;
     margin-top: 70px;
+    text-shadow: 0 0 3px orange;
+    text-decoration: underline;
 }
 
 .container{
@@ -72,7 +74,8 @@ body {
     text-align: center;
 }
 
-h2{
-    text-shadow: 0 0 3px orange;
+.row{
+    margin-bottom: 200px;
+    text-align: center;
     text-decoration: underline;
 }
