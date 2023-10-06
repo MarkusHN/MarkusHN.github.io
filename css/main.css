@@ -80,3 +80,21 @@ body {
 .prod{
     background-color: aqua;
 }
+
+.videocontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    
+}
+
+.videobox h2{
+    font-family:serif;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px grey;
+}
+
+video{
+box-shadow: 10px 10px 10px grey;
+margin-top: 100px;
+}
