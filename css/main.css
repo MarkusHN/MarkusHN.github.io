@@ -2,15 +2,6 @@ img {
     width: 400px;
 }
 
-.subjectContainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.subjectBox {
-    border: 3px solid red;
-}
-
 #middlebox {
     border: 3px solid blue;
 }
@@ -31,7 +22,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: darkorange;
+    background-color: rgb(3, 223, 223);
 }
 
 .topnav a {
@@ -62,39 +53,84 @@ body {
     text-align: center;
 }
 
-.poh img{
+.poh img {
     width: 1500px;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
 
-.row{
+.row {
     margin-bottom: 200px;
     text-align: center;
     text-decoration: underline;
 }
 
-.prod{
+.prod {
     background-color: aqua;
 }
 
-.videocontainer{
+.videocontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
-    
+
 }
 
-.videobox h2{
-    font-family:serif;
+.videobox h2 {
+    font-family: serif;
     text-decoration: underline;
     text-shadow: 1px 1px 2px grey;
 }
 
-video{
-box-shadow: 10px 10px 10px grey;
-margin-top: 100px;
+video {
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 100px;
 }
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: yellowgreen;
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.rowT {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.side {
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.img2 {
+    background-color: #aaa;
+    padding: 20px;
+}
+
+.start {
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.imghead {
+    float: left;
+    width: 61px;
+    margin: -10px;
+}
+
