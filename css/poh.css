@@ -12,7 +12,7 @@ body{
 }
 
 .content{
-    flex: 0 0 15%; /*adjust the width of each content box*/
+    flex: 0 0 13%; /*adjust the width of each content box*/
     margin: 10px;
     text-align: center;
 }
