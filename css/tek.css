@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: baseline;
+}
+
+.content{
+    flex: 0 0 10%; /*adjust the width of each content box*/
+    margin: 10px;
+    text-align: center;
+}
+
+.content img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /*add a border around images*/
+    border-radius: 5px; /*Optional: add a border-radius for rounded corners*/
+}
+
+h2{
+    margin-top: 10px;
+}

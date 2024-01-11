@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+}
+
+.side {
+    background-color: #f0f0f0;
+    flex: 0 0 20%; /* Adjusted the width of the side */
+    padding: 20px;
+}
+
+.main {
+    flex: 0 0 75%; /* Adjusted the width of the main content */
+}
+
+/* Example media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+    .side,
+    .main {
+        flex: 1; /* Take up full width on smaller screens */
+        margin: 20px 0; /* Adjust margin for spacing */
+        padding-right: 0; /* Remove padding on smaller screens */
+    }
+}
+
+/* Add these styles to control image width */
+.content img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block; /* Remove extra space below the image */
+}
+
+
+/* Additional styling for content elements */
+.content {
+    margin: 20px;
+}
