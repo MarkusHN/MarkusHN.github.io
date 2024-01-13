@@ -4,9 +4,12 @@ body{
 }
 
 .header {
-    background-image: url(/Images/medieproduksjon-2.jpg);
-    background-size: cover;
-    color: #e8e827;
+    background-image: url("../Images/mediegrafiker-scaled.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    background-blend-mode: overlay;
 }
 
 .gallery{

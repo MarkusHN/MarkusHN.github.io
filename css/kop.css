@@ -1,8 +1,11 @@
 .header{
-    background-image: url(/Images/programmering.jpg);
-    background-size: cover;
+    background-image: url("../Images/programmering.jpg");
+    background-size: 100%;
     background-attachment: fixed;
-    color: #e8e827;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    background-blend-mode: overlay;
 }
 
 .container,
