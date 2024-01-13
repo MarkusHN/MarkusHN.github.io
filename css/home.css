@@ -31,10 +31,20 @@
     height: auto;
     max-width: 100%;
     display: block; /* Remove extra space below the image */
+    border-radius: 10px;
 }
 
 
 /* Additional styling for content elements */
 .content {
     margin: 20px;
+}
+
+.content h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.side h3{
+    margin-top: 20%;
 }
