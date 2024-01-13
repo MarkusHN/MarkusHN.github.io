@@ -3,6 +3,12 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.header {
+    background-image: url(/Images/medieproduksjon-2.jpg);
+    background-size: cover;
+    color: #e8e827;
+}
+
 .gallery{
     display: flex;
     flex-wrap: wrap;

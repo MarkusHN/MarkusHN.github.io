@@ -3,6 +3,13 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.header{
+    background-image: url(/Images/Nettverk\ og\ kommounikasjon-1-1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #e8e827;
+}
+
 .gallery{
     display: flex;
     flex-wrap: wrap;
