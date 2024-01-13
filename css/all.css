@@ -38,13 +38,14 @@ body {
 }
 
 .imghead {
-    float: left;
-    width: 61px;
-    margin: -10px;
+    max-width: 61px;
+    height: auto;
+    display: inline-block; /* Use inline-block to make it stay in line with the text */
+    margin: -14px;
 }
 
 @media screen and (max-width:600px) {
-    .topnav a,.imghead {
+    .topnav a {
         float: none;
         width: 100%;
         text-align: left;
