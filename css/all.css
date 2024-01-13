@@ -44,16 +44,6 @@ body {
     margin: -14px;
 }
 
-/* Example media query for smaller screens */
-@media screen and (max-width: 600px) {
-    .topnav {
-        flex: 1; /* Take up full width on smaller screens */
-        margin: 20px 0; /* Adjust margin for spacing */
-        padding-right: 0; /* Remove padding on smaller screens */
-        flex-direction: row; /* Change to a column layout on smaller screens */
-    }
-}
-
 .container {
     flex: 1;
 }

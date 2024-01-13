@@ -27,13 +27,3 @@ body{
 h2{
     margin-top: 10px;
 }
-
-/* Example media query for smaller screens */
-@media screen and (max-width: 600px) {
-    .gallery {
-        flex: 1; /* Take up full width on smaller screens */
-        margin: 20px 0; /* Adjust margin for spacing */
-        padding-right: 0; /* Remove padding on smaller screens */
-        flex-direction: column; /* Change to a column layout on smaller screens */
-    }
-}
