@@ -46,7 +46,6 @@ body {
 
 @media screen and (max-width:600px) {
     .topnav a {
-        float: left;
         width: 100%;
     }
 }
