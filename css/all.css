@@ -36,7 +36,8 @@ body {
 }
 
 .active {
-    background-color: blue;
+    background-color: rgb(3, 3, 248);
+    opacity: 10;
     color: white;
     border-radius: 8px;
 }
