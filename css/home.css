@@ -12,6 +12,15 @@
     flex: 0 0 75%; /* Adjusted the width of the main content */
 }
 
+.header{
+    background-image: url(../Images/natur.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(74, 74, 74);
+    background-blend-mode: overlay;
+}
+
 /* Add these styles to control image width */
 .content img {
     width: 100%;
