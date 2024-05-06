@@ -1,0 +1,38 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 800;
+}
+
+.websites {
+    margin: 1rem;
+    font-weight: 800;
+}
+
+.web-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.web-link {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+img {
+    width: 20vw;
+    border-radius: 1rem;
+}
+
+.web-link a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}

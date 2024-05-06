@@ -1,0 +1,44 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.header{
+    background-image: url("../Images/programmering.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(74, 74, 74);
+    background-blend-mode: overlay;
+}
+
+.container,
+.videocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%; /* Adjust the margin-top value as needed */
+}
+
+.container .content,
+.videocontainer .videocontent {
+    margin: 20px;
+}
+
+.container .content img,
+.videocontainer .videocontent video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container .content h2,
+.videocontainer .videocontent h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+

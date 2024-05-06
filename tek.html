@@ -4,82 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Portefølje</title>
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/tek.css">
-    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <title>Konseptutv & Prog</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="TEK.css">
+    <link rel="icon" type="image/x-icon" href="Images/Favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Teknologiforståing</h1>
-    </div>
-    <div class="topnav">
-        <a href="index.html"><img class="imghead" src="Images/Monogram 2.png" alt="Heim.png"></a>
-        <a href="index.html">Heim</a>
-        <a href="kop.html">Konseptutvikling og Programering</a>
-        <a href="poh.html">Prod. & Historieforteljing</a>
-        <a class="active" href="tek.html">Teknologiforståing</a>
-    </div>
-
-
-    <div class="gallery">
-        <div class="content content1">
-            <h2>3D Sjakkbrikke</h2>
-            <img src="Images/sjakkb.png" alt="3D sjakkbrikke">
-        </div>
-
-        <div class="content content2">
-            <h2>3D Firkant med hål</h2>
-            <img src="Images/Skjermbilde 2024-01-11 105931.png" alt="rar firkant">
-        </div>
-
-        <div class="content content3">
-            <h2>3D Tannhjul</h2>
-            <img src="Images/tannhjul.png" alt="Tannhjul">
-        </div>
-
-        <div class="content content3">
-            <h2>3D Terning</h2>
-            <img src="Images/terning.png" alt="Terning">
-        </div>
-
-        <div class="content content3">
-            <h2>Tannhjul m/Hål</h2>
-            <img src="Images/tre tannhju.png" alt="Tannhjul m/Hål">
-        </div>
-
-        <div class="content content3">
-            <h2>Ruter</h2>
-            <img src="Images/nettverk.jpg" alt="Ruter">
-        </div>
-
-        <div class="content content4">
-            <h2>3D Kors</h2>
-            <img src="Images/kors 3d.png" alt="Kors 3D">
-        </div>
-
+    <div class="nav-container">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a href="index.html"><span class="material-icons home-icon">
+                            home
+                        </span><span>Heim</span></a>
+                </li>
+                <li class="nav-link subjects">
+                    <a>Fag
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="drop-down">
+                        <li><a href="KOP.html">Konseptutv & Prog</a></li>
+                        <li><a href="POH.html">Prod & Historie</a></li>
+                        <li><a href="TEK.html">Teknologiforståing</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="OM.html"><span class="material-icons person-icon">
+                            person
+                        </span>Om Meg</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
+    <h1 class="title">Teknologiforståing</h1>
+
+    <div class="TEK-Container">
+        <div class="TEK-Contents">
+            <div class="TEK-Content">
+                <img src="Images/kors 3d.png" alt="Kors-3D-picture">
+                <h3>Kors 3D</h3>
+            </div>
+            <div class="TEK-Content">
+                <img src="Images/ruter oppset.jpg" alt="Ruter-picture">
+                <h3>Ruter</h3>
+            </div>
+            <div class="TEK-Content">
+                <img src="Images/sjakkb.png" alt="Sjakkbrikke-picture">
+                <h3>Sjakkbrikke</h3>
+            </div>
+            <div class="TEK-Content">
+                <img src="Images/terning.png" alt="Terning-picture">
+                <h3>Terning</h3>
+            </div>
+            <div class="TEK-Content">
+                <img src="Images/tannhjul.png" alt="Tannhjul-picture">
+                <h3>Tannhjul</h3>
+            </div>
+
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
             <div class="contact-info">
                 <h3>Kontaktinformasjon</h3>
-                <p>Email: markusnundal@email.com</p>
-                <p>TLF: 950 28 910</p>
+                <p><a href="mailto:markusnundal@email.com" target="_blank">Email: markusnundal@email.com</a></p>
+                <p>Telefon: 950 28 910</p>
             </div>
 
             <div class="quick-links">
                 <h3>Hurtigkoblinger</h3>
                 <ul>
-                    <li><a class="Links" href="index.html">Home</a></li>
-                    <li><a class="Links" href="kop.html">Konseptutv & prog</a></li>
-                    <li><a class="Links" href="poh.html">Prod & Historieforteljing</a></li>
-                    <li><a class="Links" href="tek.html">Teknologiforståing</a></li>
+                    <li><a class="Links" href="https://markushn.github.io/Anime-Quote/">Anime Quote</a></li>
+                    <li><a class="Links" href="https://markushn.github.io/interaktivhistorie/">Interaktiv Historie</a>
+                    </li>
                     <li><a class="Links" href="https://markushn.github.io/Spelmagasin/" target="_blank">Spelmagasin</a>
                     </li>
-                    <li><a class="Links" href="https://markushn.github.io/Julekort-Generator/" target="_blank">Julekort Generator</a></li>
+                    <li><a class="Links" href="https://markushn.github.io/Julekort-Generator/" target="_blank">Julekort
+                            Generator</a></li>
                 </ul>
             </div>
 
@@ -89,6 +97,7 @@
             <p>&copy; 2024 Markus H. Nundal. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
 
 </html>

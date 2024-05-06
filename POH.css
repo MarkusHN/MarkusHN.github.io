@@ -1,0 +1,37 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 800;
+}
+
+.POH-Container {
+    margin: 1rem;
+}
+
+.POH-Contents {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.POH-Content {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+img {
+    width: 20vw;
+    border-radius: 1rem;
+    display: block;
+}
+
+.POH-Content h3 {
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+}

@@ -1,0 +1,23 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.AboutMeContent{
+    display: flex;
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
