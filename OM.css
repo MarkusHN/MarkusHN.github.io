@@ -23,7 +23,7 @@
     justify-content: center; /* Center vertically */
 }
 
-h3{
+.AboutMeContent h3{
     text-decoration: underline;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
