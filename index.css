@@ -160,10 +160,10 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(188, 0, 0);
+    background: #60b58f;
     border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: red;
+    background: #7debb9;
 }
