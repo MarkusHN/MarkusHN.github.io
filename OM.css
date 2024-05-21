@@ -22,9 +22,24 @@
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
 }
+.AboutMeContainer {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
 
-.AboutMeContent h3{
+.MyImage img {
+    max-width: 300px; /* This makes sure the image scales nicely */
+    height: auto;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 9999;
+    left: 5%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.541);
+}
+
+.AboutMeContent h3 {
     text-decoration: underline;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
+    font-weight: 800;
 }

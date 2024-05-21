@@ -1,19 +1,23 @@
+/* Reset styles for all elements */
 * {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
 
+/* Styling for the body element */
 body {
     background: linear-gradient(white, rgb(171, 171, 171));
 }
 
+/* Styling for the navigation container */
 .nav-container {
     display: flex;
     font-size: 14px;
     height: 10vh;
 }
 
+/* Styling for the list items inside the navigation container */
 .nav-container li {
     font-family: sans-serif;
     text-transform: uppercase;
@@ -21,6 +25,7 @@ body {
     font-weight: 900;
 }
 
+/* Styling for the navbar */
 .navbar {
     margin: auto;
     padding: 0.5rem 1.5rem;
@@ -29,12 +34,14 @@ body {
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
 }
 
+/* Styling for the navigation links */
 .nav-links {
     display: flex;
     gap: 2rem;
     margin: auto;
 }
 
+/* Styling for the individual navigation links and dropdown links */
 .nav-link,
 .drop-down a {
     list-style: none;

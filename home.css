@@ -23,3 +23,13 @@
 .introduction p {
     width: 31rem;
 }
+
+/* Styling for the .Localclock class */
+.Localclock {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+    position: absolute;
+    z-index: 9999;
+    text-decoration: underline;
+}
