@@ -1,3 +1,8 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('Fonts/digital-7.ttf');
+}
+
 .introduction {
     display: flex;
     flex-direction: column;
@@ -24,12 +29,24 @@
     width: 31rem;
 }
 
-/* Styling for the .Localclock class */
-.Localclock {
-    font-size: 2rem;
+/* Styling for the Digital clock */
+.Localclock p{
+    font-family: 'digital-clock-font';
+    animation: glow 3s ease-in-out infinite alternate;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
     font-weight: bold;
     margin: 2rem;
     position: absolute;
     z-index: 9999;
-    text-decoration: underline;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #7debb9, 0 0 10px #7debb9, 0 0 15px #7debb9, 0 0 20px #7debb9, 0 0 30px #7debb9, 0 0 40px #7debb9, 0 0 50px #7debb9;
+    }
+    
+    to {
+        text-shadow: 0 0 20px #7debb9, 0 0 30px #7debb9, 0 0 40px #7debb9, 0 0 50px #7debb9, 0 0 60px #7debb9, 0 0 70px #7debb9;
+    }
 }
