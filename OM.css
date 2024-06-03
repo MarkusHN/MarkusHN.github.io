@@ -32,7 +32,6 @@
     height: auto;
     border-radius: 1rem;
     position: absolute;
-    z-index: 9999;
     left: 5%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.541);
 }
@@ -42,4 +41,16 @@
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+    .AboutMeContent {
+        width: 90%;
+    }
+
+    .MyImage img {
+        display: none;
+        max-width: 200px;
+    }
+    
 }

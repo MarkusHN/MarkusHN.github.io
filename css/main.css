@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  scrollbar-width: thin;
+  font-family: "Titling Gothic Condensed",system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji!important;
+  font-weight: bolder;
+}
+
+body {
+  background: black;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem;
+  gap: 3rem;
+}
+
+.card {
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 4rem; 
+  margin-right: 4rem;
+  color: white;
+  position: relative;
+  background-image: linear-gradient(#7FBBCC, #36535a);
+}
+
+.card img {
+  width: 130%;
+  height: auto;
+  margin-left: 2.4rem;
+  margin-bottom: -5px;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  transform-origin: top center;
+}
+
+.card-overlay {
+  width: 10vw;
+  padding: 0;
+  margin: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card-overlay h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.card-overlay p {
+  font-size: 1rem;
+}
+
+.card-overlay h1{
+  font-size: 3rem;
+}

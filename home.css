@@ -41,12 +41,16 @@
     z-index: 9999;
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #7debb9, 0 0 10px #7debb9, 0 0 15px #7debb9, 0 0 20px #7debb9, 0 0 30px #7debb9, 0 0 40px #7debb9, 0 0 50px #7debb9;
+@media screen and (max-width: 768px) {
+    .introduction h1{
+        font-size: 2rem;
     }
-    
-    to {
-        text-shadow: 0 0 20px #7debb9, 0 0 30px #7debb9, 0 0 40px #7debb9, 0 0 50px #7debb9, 0 0 60px #7debb9, 0 0 70px #7debb9;
+
+    .introduction p {
+        width: 90%;
+    }
+
+    .introduction {
+        width: 90%;
     }
 }

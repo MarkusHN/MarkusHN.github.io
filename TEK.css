@@ -1,11 +1,11 @@
 * {
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
 }
 
 .title {
     text-align: center;
     margin-top: 3rem;
+    font-weight: 800;
 }
 
 .TEK-Container {
@@ -33,4 +33,11 @@ img {
 .TEK-Content h3 {
     color: black;
     text-decoration: underline;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 50vw;
+    }
 }

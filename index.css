@@ -2,6 +2,9 @@
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
     font-family: "Poppins", sans-serif;
 }
 
@@ -173,6 +176,7 @@ a {
 }
 
 .fa {
+    margin-right: 0.5rem;
     padding: 10px;
     font-size: 40px;
     text-align: center;
@@ -244,12 +248,19 @@ a {
     z-index: 9999;
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #7debb9, 0 0 10px #7debb9, 0 0 15px #7debb9, 0 0 20px #7debb9, 0 0 30px #7debb9, 0 0 40px #7debb9, 0 0 50px #7debb9;
+@media screen and (max-width: 400px) {
+    .Localclock {
+        display: none;
     }
-    
-    to {
-        text-shadow: 0 0 20px #7debb9, 0 0 30px #7debb9, 0 0 40px #7debb9, 0 0 50px #7debb9, 0 0 60px #7debb9, 0 0 70px #7debb9;
+
+    .nav-links {
+        display: flex;
+        gap: 0.5rem; /* Decreased the gap between nav links */
+        margin: auto;
     }
+
+   .footer-content {
+    display: flex;
+       flex-direction: column;
+   }
 }

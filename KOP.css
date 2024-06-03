@@ -36,3 +36,9 @@ img {
     color: black;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 50vw;
+    }
+}
