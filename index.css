@@ -239,10 +239,9 @@ a {
 /* Styling for the Digital clock */
 .Localclock p{
     font-family: 'digital-clock-font';
-    animation: glow 3s ease-in-out infinite alternate;
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 2rem;
     position: absolute;
     z-index: 9999;
