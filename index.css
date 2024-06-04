@@ -245,6 +245,7 @@ a {
     margin: 2rem;
     position: absolute;
     z-index: 9999;
+    text-shadow: -4px 8px 7px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 400px) {

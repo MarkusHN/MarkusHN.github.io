@@ -19,8 +19,8 @@
   margin-right: 4rem;
   color: white;
   position: relative;
-  background-image: linear-gradient(#7FBBCC, #36535a);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(#7debb9, #458769);
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
 }
 
 .card img {
