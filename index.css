@@ -217,6 +217,11 @@ a {
 
 }
 
+.fa-tiktok {
+    background: #000000;
+    color: white;
+}
+
 .footer-content a:hover{
     color: #7debb9;
     text-decoration: underline;
@@ -245,7 +250,7 @@ a {
     margin: 2rem;
     position: absolute;
     z-index: 9999;
-    text-shadow: -4px 8px 7px rgba(0, 0, 0, 0.3);
+    text-shadow: -4px 8px 7px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 400px) {
