@@ -196,8 +196,7 @@ a {
 }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+    background-image: linear-gradient(to bottom left, rgb(170, 0, 170), rgb(212, 212, 1));    color: white;
 }
 
 .fa-snapchat-ghost {
